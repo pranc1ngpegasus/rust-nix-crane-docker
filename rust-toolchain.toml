@@ -1,0 +1,15 @@
+[toolchain]
+channel = "1.95.0"
+components = [
+  "cargo",
+  "clippy",
+  "rust-analyzer",
+  "rust-src",
+  "rustc",
+  "rustfmt",
+]
+profile = "minimal"
+targets = [
+  "aarch64-apple-darwin",
+  "aarch64-unknown-linux-musl",
+]
